@@ -1,0 +1,570 @@
+
+.interface_site{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgb(0,0,0,0.4)) , url(../img/slider/slide-1.jpg);
+    /* height: 600px; */
+     background-repeat: no-repeat;
+    background-size: cover; 
+border-radius: 0%;
+position: relative;
+margin: 0;
+width: 100%;
+height: 600px;
+   /* width: 100% !important;  */
+    
+    
+
+}
+
+
+
+nav{
+    /* background-color: transparent !important; */
+    z-index: 999;
+    /* position: fixed !important; */
+    top: 0%;
+    width: 100%;
+    
+    
+}
+.nav-link :before {
+    content: '\f017';
+    /* font-family: 'Font Awesome 5 Brands'; If using Brand */
+    font-family: 'Font Awesome 5 Free';
+    /* font-weight: 400;  If using Brands or Regular */
+    font-weight: 900;
+}
+.icon{
+    margin-left: 10px;
+}
+nav .nav-link{
+    color: white !important;
+}
+nav .list{
+    margin-left: 600px;
+}
+.active{
+    color: rgba(125, 224, 186,  92%) !important;
+}
+/* .collapse ul li a:hover{
+    color: rgba(125, 224, 186,  92%) !important;
+} */
+.text{
+    position: absolute;
+    color: white;
+}
+.text_two{
+    color: white;
+    position: absolute;
+}
+.Search{
+    margin-left: 50px;
+    margin-top: 350px;
+    position: absolute;
+    overflow: hidden;
+}
+.Search .search_bar{
+    
+    border: none !important;
+    width: 230px !important;
+    border-radius: 23px 0px 0px 26px !important;
+    height: 41px;
+    padding: 11px;
+}
+
+.Search .Search_btn{
+    
+    background-color:rgba(125, 224, 186 , 92%) !important;
+    border: none !important;
+    width: 57px !important;
+    height: 41px !important;
+    margin-left: -4px;
+    padding: 9px !important;
+    
+    border-radius: 0px 27px 25px 0px !important;
+}
+.Search .Search_btn i{
+color: white;
+}
+@media(max-width:767px){
+.text{
+    margin-top: 147px;
+    margin-left: 50px;
+    width: 369px;
+}
+.text_two{
+    margin-top: 264px;
+    margin-left: 50px;
+    width: 300px;
+} 
+.Search{
+margin-top: 381px;
+}  
+nav .list{
+    margin-left: 0px;
+}
+
+}
+@media(min-width:768px){
+    .text{
+       margin-top: 147px; 
+    margin-left: 50px;
+    width: 514px;
+    }
+    .text_two{
+        margin-top: 264px;
+        margin-left: 50px;
+        width: 514px;
+    }
+    .Search{
+        margin-top: 350px;
+        }  
+nav .list{
+    margin-left: 0px;
+}        
+    
+}
+@media(min-width:991px){
+    .text{
+        margin-top: 147px;
+    margin-left: 50px;
+    width: 400px;
+    }
+    .text_two{
+        margin-top: 264px;
+        margin-left: 50px;
+        width: 574px;
+    }
+    nav .list{
+        margin-left: 336px;
+    }
+    
+}
+@media(min-width:1200px){
+    .text{
+        margin-top: 147px;
+    margin-left: 50px;
+    width: 510px;
+    }
+    .text_two{
+        margin-top: 264px;
+        margin-left: 50px;
+        width: 570px;
+    }
+    nav .list{
+
+        margin-left: 600px;
+    }
+}
+
+
+
+.main{
+    background-color: white;
+    box-shadow: 7px 7px 10px silver;
+    margin-top: -113px;
+    background-color: white;
+    /* height: 250px; */
+
+
+}
+
+
+.main .Services{
+    border: none !important;
+    border-radius: 0 !important;
+    /* margin-top: 10px; */
+    height: 200px;
+}
+.main .Services i{
+    background-color: rgba(0, 209, 129,  36%);
+    color: #13b378;
+}
+.main .Services .card-subtitle{
+    color: black !important;
+    font-size:15px;
+
+}
+.main .Services .card-text{
+    text-align: left;
+}
+.Student{
+    margin: 150px 354px ;
+    border: none !important;
+    /* width: 599px !important; */
+    z-index: 500;
+}
+.Student h3{
+  text-align: center;
+}
+.Student p{
+ text-align: center;
+ color: gray;
+}
+.Numbers {
+    background-image: url(../img/fact-bg.jpg);
+    /* margin: 380px 0px 0px 0px; */
+    /* height: 350px; */
+    /* width: 100%; */
+}.Numbers .num{
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    height: 252px;
+    margin-top: 71px;
+    
+}
+.Numbers .num h1 {
+    text-align: center !important;
+    color: white !important;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+.Numbers .num h4{
+    text-align: center !important;
+    color: white !important;
+    font-weight: bold;
+    font-family: Arial;
+}
+.Numbers .num h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.courses_row{
+    margin-top: 40px;
+}
+
+.Courses_box .Line h2 {
+ text-align: center;
+}
+.Courses_box{
+    margin-top: 70px;
+    column-gap: 19%;
+    
+}
+.card_animate{
+    position: relative;
+}
+.Courses_box .Courses{
+    
+    
+    border: 2px seashell;
+    border-radius: 5% !important;
+    /* box-shadow: 7px 7px 10px silver; */
+    box-shadow:  0 4px 2px -2px #989898;
+    overflow: hidden !important;
+    
+}
+.Courses img{
+    
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    
+}
+.Courses p{
+color: gray;
+}
+.Courses .enroll_btn{
+    background-color:#90ee9038;
+    color: #0cea98;
+    border-radius: 20px;
+    font-weight: 500;
+    
+    /* width: 140px;
+    height: 34px; */
+    border: none;
+    /* margin-left: 29px; */
+
+}
+.Courses .enroll_btn:hover{
+    background-color: rgba(0, 209, 129, 0.767) !important;
+    
+}
+.Courses .price{
+    border: none;
+    margin-left: 158px !important;
+    color: #0cea98;
+    border-radius: 20px;
+    font-weight: 500;
+
+}
+.middle{
+    margin-top: 100px;
+}
+.middle .video{
+    padding: 0;
+    border: none;
+}
+.middle .education {
+    border: none;
+    margin-top: 49px;
+}
+.education p{
+    color: gray;
+    margin-top: 42px;
+    width: 451px;
+}
+.testmonial .customer h1{
+    text-align: center;
+}
+.review{
+    border: none !important;
+}
+
+.testmonial .review img{
+    border-radius: 50%;
+    border: azure;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+
+}
+.testmonial .review i{
+    
+    color: rgba(0, 209, 129, 0.767);
+}
+
+.blog{
+    text-align: center ;
+}
+
+.faqs{
+    margin-top: 108px;
+}
+.faqs .faqs_line{
+    text-align: center;
+}
+.questions{
+    border: none !important;
+}
+ .questions .vp_line{
+    width: 356px;
+} 
+.questions p{
+    width: 351px;
+}
+.location{
+    margin-top: 103px;
+} 
+.map{
+    padding: 0px !important;
+    border: none !important;
+}  
+.map_body{
+    padding: 0 !important;
+    margin: 0px !important;
+}
+.map_row{
+    margin-left: 0px !important;
+}
+.error{
+    text-align: center;
+    font-size: 40px;
+    background-color: tomato;
+    width: 100%;
+    padding: 1%;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: -100%;
+    z-index: 999;
+}
+.registeration{
+    border: none !important;
+    border-radius: 0 !important;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 0px !important;
+    
+}
+.register_block{
+    margin-top: 30px;
+}
+.register_block .Email{
+    width: 347px !important;
+    margin-top: 5px;
+    margin-left: -18px;
+}
+.register_block .Password{
+    width: 349px !important;
+    margin-left: -18px !important;
+    margin-top: 5px;
+
+}
+.register_block .Confirm_Password{
+    width: 349px !important;
+    margin-left: -18px !important;
+
+}
+.name{
+   
+    margin-left: -2px !important;
+    width: 100%;
+}
+.first_name, .last_name{
+   width: 147px !important;
+   
+
+}
+.last_name{
+    margin-left: 5px;
+}
+.Register_btn:hover{
+    background-color: rgba(0, 209, 129, 0.767) !important;
+color: white !important;
+outline-color: none !important;
+}
+.Register_btn{
+    background-color:#90ee9038 !important;
+    color: #0cea98 !important;
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    margin-top: 10px;
+    outline-color: none !important;
+    
+}
+.logos{
+    margin-top: 50px;
+}
+.admission{
+    background-color:rgba(119, 151, 153 ,6%) !important;   
+width: 100%;
+}
+.admission .container{
+    background-color: transparent !important;
+}
+.admission_card{
+   
+border: none !important;
+
+background-color: transparent !important;
+}
+.admission_card .card_body{
+    background-color: transparent !important;
+}
+.admission_card p{
+    color: rgba(119, 136, 153, 0.822) !important;
+    width: 530px;
+}
+.enroll{
+    
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    
+    border: none !important;
+    background-color: rgba(0, 209, 129, 0.767) !important;
+color: white !important;
+margin-left: 192px;
+margin-top: 33px;
+/* margin-left: 904px !important;
+margin-top: -101px; */
+}
+.information{
+    background-color: rgb(17, 24, 72) !important;
+}
+.information_logo,.information_list,.information_mail{
+    background-color: transparent !important;
+    border: none !important;
+}
+.information_logo{
+    padding: 0 !important;
+}
+
+.information_logo img{
+    margin-top: 10px;
+}
+.information_logo p{
+
+color: white !important;
+margin-top: 11px;
+    width: 438px !important;
+
+}
+.information_list ul li a{
+text-decoration: none;
+color: white;
+}
+.information_list ul{
+    margin-left: 48px;
+    margin-top: 18px;
+}
+.information_mail{
+    padding: 0 !important;
+    margin-top: 19px;
+}
+.information_mail h4{
+    color: white !important;
+}
+.information_mail p{
+    width: 400px !important;
+    color: white !important;
+}
+.information_mail form{
+    display: inline-block;
+    margin-top: 13px;
+    overflow: hidden;
+}
+.information_mail .mail{
+    border-radius: 45px 0px 0px 45px !important;
+padding: 13px;    
+    width: 261px !important;
+    border: none !important;
+    height: 37px !important;
+    
+}
+.information_mail .send{
+    background-color: #b6efb6;
+    padding: 7px;
+    margin-left: -4px;
+    border: none;
+    height: 37px;
+    border-radius: 0px 20px 16px 0px;
+    width: 62px;
+
+}
+
+
+footer {
+    background-color:rgb(41, 45, 72 ,89%) ;
+    padding: 2%;
+    
+}
+footer p{
+    text-align: center !important;
+    /* font-size: 15px; */
+    color: white ;
+}
+.scroller{
+    width: 50px;
+    height: 50px;
+    /* top: 618px; */
+    right: 30px;
+    bottom: 20px;
+    position:fixed;
+    display: none;
+    background-color: rgba(0, 209, 129, 0.767) ;
+    outline: none !important;
+    border: none;
+    border-radius: 5%;
+    z-index: 999;
+    cursor: pointer;
+    color: white;
+}
+.ARS{
+    color: red;
+    position: absolute;
+    font-weight: bold;
+    top: 12px;
+    z-index: 99;
+    
+}
+/* .regist input{
+    position: relative;
+} */
+.regist div{
+position: relative;
+}
